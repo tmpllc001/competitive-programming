@@ -18,9 +18,8 @@ Ai+1がAiより大きい場合: up [増加量]、ここで [増加量] は整数
 """
 # 数字をリストで受け取って一個前と比較する
 N = int(input())
-
-N = int(input())
 A = [int(input()) for _ in range(N)]
+
 for i in range(1, N):
     diff = A[i] - A[i-1]
     if diff == 0:
